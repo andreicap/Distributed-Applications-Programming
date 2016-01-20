@@ -67,8 +67,7 @@ can communicate with an undefined number of peers without directly
 knowing their details.
 
 A broker can also act as a bridge between the different communication
-protocols, for example, the popular RabbitMQ broker (http://www.
-rabbitmq.com) supports Advanced Message Queuing Protocol (AMQP), Message
+protocols, for example, the popular RabbitMQ broker (http://www.rabbitmq.com) supports Advanced Message Queuing Protocol (AMQP), Message
 Queue Telemetry Transport (MQTT), and Simple/Streaming Text Orientated
 Messaging Protocol (STOMP), enabling multiple applications supporting
 different messaging protocols to interact.
