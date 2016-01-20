@@ -1,4 +1,4 @@
-Theoretical background @msg_broker 
+Theoretical background
 ===================================
 
 What is a message broker?
@@ -51,7 +51,6 @@ configuration is symmetrical because the message broker does not
 restrict the applications that can initiate calls. Figure 1 illustrates
 this configuration.
 
-![Message Broker](msg_brkr)
 
 Implementation technologies
 ===========================
@@ -74,9 +73,8 @@ Queue Telemetry Transport (MQTT), and Simple/Streaming Text Orientated
 Messaging Protocol (STOMP), enabling multiple applications supporting
 different messaging protocols to interact.
 
-![Peer to Peer vs. Message Broker Technologies](p2p_msg)
 
-@msg_broker **Benefits:**
+**Benefits:**
 
 -   Reduced coupling. The message broker decouples the senders and
     the receivers. Senders communicate only with the message broker, and
@@ -105,7 +103,7 @@ different messaging protocols to interact.
     mock- ing. Mocking facilitates the testing of individual
     applications as well as of the interaction between them.
 
-@msg_broker **Liabilities:**
+**Liabilities:**
 
 -   Increased complexity. Communicating through a message broker is more
     complex than direct communication for the following reasons:
@@ -145,20 +143,17 @@ mediates the communication between the sender and the receiver, storing
 any message before it gets delivered to its destination, as shown in the
 following figure:
 
-![Message Queue](q_msg)
 
 Pub/Sub Pattern
 ---------------
 
-Publish/Subscribe @pub_sub (often abbreviated Pub/Sub) is probably the
+Publish/Subscribe (often abbreviated Pub/Sub) is probably the
 best known one- way messaging pattern. We should already be familiar
 with it, as it’s nothing more than a distributed observer pattern. As in
 the case of observer, we have a set of subscribers registering their
 interest in receiving a specific category of messages. On the other
 side, the publisher produces messages that are distributed across all
 the relevant subscribers.
-
-![P2P Pub/Sub vs. Pub/Sub with a broker](ps_msg)
 
 The above figure shows the two main variations of the pub/sub pattern,
 the first P2P, the second using a broker to mediate the communication.
@@ -203,9 +198,9 @@ like browser JavaScript the event loop is hidden from the user.
 
 **Libraries used:**
 
--   <span> `fs` | FileSystem Library @fs </span>
+-   <span> `fs` | FileSystem Library </span>
 
--   <span> `dgram` | UDP Datagram Library @dgram </span>
+-   <span> `dgram` | UDP Datagram Library </span>
 
 Solution description
 --------------------
@@ -224,20 +219,19 @@ The source code is divided into the files:
 
 ### Work flow
 
-![Work Flow Diagram](flow)
 
 The following steps are done during running the application:
 
-1.  Sender reads sent.xml using `fs::readFile` function. @fs
+1.  Sender reads sent.xml using `fs::readFile` function. 
 
 2.  Sender sends the content to broker using `dgram::send` function.
-    @dgram
+    
 
 3.  Broker forwards the content to receiver using
-    `dgram::send` function. @dgram
+    `dgram::send` function. 
 
 4.  Receiver writes the message to received.xml in xml format using
-    `fs::writeFile` function. @fs
+    `fs::writeFile` function. 
 
 Conclusion
 ==========
@@ -267,4 +261,4 @@ can build a complex application that can easily handle the needs of
 millions of users. The event loop does the hard work and the application
 dealing with client requests doesn’t have to.
 
-*But you should keep in mind the callbacks. Always.*@tut
+*But you should keep in mind the callbacks. Always.
