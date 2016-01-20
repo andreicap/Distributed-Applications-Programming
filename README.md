@@ -8,4 +8,4 @@
 
 ### [Laboratory Work no. 4](https://github.com/andreicap/Distributed-Applications-Programming)
 
-### [Laboratory Work no. 5](https://github.com/andreicap/Distributed-Applications-Programming)
+### [Laboratory Work no. 5](/#)
