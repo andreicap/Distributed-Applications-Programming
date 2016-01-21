@@ -1,4 +1,4 @@
-Laboratory Work no. 1 [#report](https://github.com/andreicap/Distributed-Applications-Programming/blob/master/Lab1/Lab1%20-%20Report.pdf)
+Laboratory Work no. 1 [#report](Lab1 - Report.pdf)
 ========
 
 Theoretical background
