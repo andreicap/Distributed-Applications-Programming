@@ -263,4 +263,4 @@ can build a complex application that can easily handle the needs of
 millions of users. The event loop does the hard work and the application
 dealing with client requests doesn’t have to.
 
-*But you should keep in mind the callbacks. Always.
+*But you should keep in mind the callbacks. Always.*
