@@ -1,5 +1,4 @@
-Laboratory Work no. 1 [#report](Lab1 - Report.pdf)
-========
+### Laboratory Work no. 1 - [#report](Lab1 - Report.pdf)
 
 Theoretical background
 ===================================
