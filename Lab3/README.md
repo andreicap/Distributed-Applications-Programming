@@ -1,4 +1,4 @@
-Laboratory work no. 3 - [#report](/Lab2%20-%20report.pdf)
+Laboratory work no. 3 - [#report](Lab3 - Report.pdf)
 
 Objective
 =========
