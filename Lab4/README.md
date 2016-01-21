@@ -83,7 +83,7 @@ evolve beyond the toil and struggle of build management into a new phase
 where the effort required to build and maintain software is no longer a
 limiting factor in software design.
 
-![Graph Ilustration](graph)
+![Graph Ilustration](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/2000px-6n-graf.svg.png)
 
 In above illustration is shown a graph, each vertex representing a node
 in a network. Depending on what data each contain, each can be the
