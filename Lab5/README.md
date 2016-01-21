@@ -73,7 +73,7 @@ particular methods:
     the result of submitting a web form to a data-handling process; or
     an item to add to a database.
 
-![HTTP Request Illustration](http)
+![HTTP Request Illustration](https://trafficserver.readthedocs.org/en/5.3.x/_images/httprvs.jpg)
 
 Solution description
 ====================
